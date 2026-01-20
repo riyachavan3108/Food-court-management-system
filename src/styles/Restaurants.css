@@ -1,0 +1,54 @@
+/* Ensure styles apply to elements in JSX */
+.restaurants-container {
+    text-align: center;
+    padding: 20px;
+    background: #f8f9fa;
+}
+
+.title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Use Grid to Arrange Restaurants Neatly */
+.restaurant-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 10px;
+    justify-items: center;
+}
+
+/* Restaurant Cards */
+.restaurant-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 100%;
+    max-width: 320px;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.restaurant-card:hover {
+    transform: scale(1.05);
+}
+
+.restaurant-name {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.restaurant-location, .restaurant-menu {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .restaurant-list {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}

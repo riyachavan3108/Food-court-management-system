@@ -1,0 +1,58 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff914d;
+    padding: 15px 30px;
+  }
+  
+  .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+  
+  .register-btn {
+    background: black;
+    color: #ff914d;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  .login-btn {
+    background: black;
+    color: #ff914d;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  .cart-btn {
+    background: black;
+    color: #ff914d;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  .fc-btn {
+    background: black;
+    color: #ff914d;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  
